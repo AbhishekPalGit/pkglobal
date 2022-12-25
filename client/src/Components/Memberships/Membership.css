@@ -1,15 +1,15 @@
-.testimonial-head{
+.member-head {
     width: 90%;
     height: 50px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     margin-top: 20px;
     border-style: none;
     margin-left: 5%;
-    color: antiquewhite;
+    color: rgb(9, 9, 9);
     text-align: center;
     border-radius: 3px;
 }
-.testimonial-main{
+.member-main{
     width: 100%;
     height: 300px;
     /* background-color: red; */
@@ -17,20 +17,21 @@
     justify-content: space-between;
     padding: 25px;
 }
-.testimonial-box{
+.member-box{
     width: 0%;
-    height: 200px;
-    transition: width 0.7s;
+    height: 250px;
+    /* transition: width 0.7s; */
+    transition: all 0.7s ease;
 
     
 }
-.testimonial-box img{
-    width: 30%;
+.member-box img{
+    width: 25%;
     height: 100%;
 }
 @media only screen and (max-width: 700px ){
-    .testimonial-box img{
+    .member-box img{
         width: 90%;
-        height: 100%;
+        height: 80%;
     }
 }

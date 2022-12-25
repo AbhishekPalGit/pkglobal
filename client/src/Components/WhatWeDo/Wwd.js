@@ -55,7 +55,27 @@ const Wwd = () => {
       <p>Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos repellendus repudiandae deleniti ideas fuga molestiae, alias.</p>
       <div className="content">
         <div className="info">
-          <div className="name">Sourcing Agent</div>
+          <div className="name">Sourcing<br/>Agent</div>
+         
+          <div className="stars">
+            <i className="fas fa-star"></i>
+            <i className="fas fa-star"></i>
+            <i className="fas fa-star"></i>
+            <i className="fas fa-star"></i>
+            <i className="far fa-star"></i>
+          </div>
+        </div>
+        <div className="image">
+          <img src="images/profile-3.jpeg" alt=""/>
+        </div>
+      </div>
+    </div>
+    <div className="box">
+      <i className="fas fa-quote-left  quote"></i>
+      <p>Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos repellendus repudiandae deleniti ideas fuga molestiae, alias.</p>
+      <div className="content">
+        <div className="info">
+          <div className="name">Sourcing<br/>Agent</div>
          
           <div className="stars">
             <i className="fas fa-star"></i>

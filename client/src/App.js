@@ -12,10 +12,17 @@ import UpperHeader from './Components/Headers/UpperHeader';
 import Testimonial from './Components/Testimonials/Testimonial';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+
 function App() {
   return (
    <div>
-    <UpperHeader/>
+<BrowserRouter>
+      <Routes>
+      <Route exact path="/" element={ <UpperHeader/>}></Route>
+      </Routes>
+   
+</BrowserRouter>
+
 <Topheader/>
 
 <BrowserRouter>

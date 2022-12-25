@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Footer.css"
+import {TiSocialYoutube,TiSocialInstagram,TiSocialFacebookCircular,TiSocialTwitterCircular,TiSocialLinkedinCircular} from "react-icons/ti"
 const Footer = () => {
   return (
     <div>
@@ -7,7 +8,7 @@ const Footer = () => {
   	 <div className="container">
   	 	<div className="row">
   	 		<div className="footer-col">
-  	 			<h4>company</h4>
+  	 			<h4>Quick Links</h4>
   	 			<ul>
   	 				<li><a href="#">about us</a></li>
   	 				<li><a href="#">our services</a></li>
@@ -16,7 +17,7 @@ const Footer = () => {
   	 			</ul>
   	 		</div>
   	 		<div className="footer-col">
-  	 			<h4>get help</h4>
+  	 			<h4>Products</h4>
   	 			<ul>
   	 				<li><a href="#">FAQ</a></li>
   	 				<li><a href="#">shipping</a></li>
@@ -26,7 +27,7 @@ const Footer = () => {
   	 			</ul>
   	 		</div>
   	 		<div className="footer-col">
-  	 			<h4>online shop</h4>
+  	 			<h4>Contact Us</h4>
   	 			<ul>
   	 				<li><a href="#">watch</a></li>
   	 				<li><a href="#">bag</a></li>
@@ -37,10 +38,23 @@ const Footer = () => {
   	 		<div className="footer-col">
   	 			<h4>follow us</h4>
   	 			<div className="social-links">
-  	 				<a href="#"><i className="fab fa-facebook-f"></i></a>
-  	 				<a href="#"><i className="fab fa-twitter"></i></a>
+  	 				{/* <a href="#"><TiSocialYoutube/></a>
+  	 				<a href="#"><i className="fab fa-twitter"><TiSocialYoutube/></i></a>
   	 				<a href="#"><i className="fab fa-instagram"></i></a>
   	 				<a href="#"><i className="fab fa-linkedin-in"></i></a>
+  	 				<a href="#"><i className="fab fa-linkedin-in"></i></a> */}
+					
+					<TiSocialInstagram size={30} style={{color:"white"}}/>
+					<TiSocialFacebookCircular size={30} style={{color:"white",marginLeft:"3px"}}/>
+					<TiSocialYoutube size={30} style={{color:"white",marginLeft:"3px"}}/>
+
+					<TiSocialLinkedinCircular size={30} style={{color:"white",marginLeft:"3px"}}/>
+					<TiSocialTwitterCircular size={30} style={{color:"white",marginLeft:"3px"}}/>
+
+
+					
+
+
   	 			</div>
   	 		</div>
   	 	</div>

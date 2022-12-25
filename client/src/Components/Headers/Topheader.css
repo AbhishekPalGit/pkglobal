@@ -8,7 +8,7 @@
     width: 90hh;
     height: 10vh;
     /* background-color: #28282B;  */
-    background-color: rgb(16, 16, 16);
+    background-color: #24262b;
     /* background-color: rgb(250, 181, 78);  */
 
     display: flex;
@@ -67,7 +67,7 @@ height: 100%;
 
 }
 .nav-bar{
-    text-align: center;
+    
     padding:20px;
 }
 .nav-bar ul{
@@ -79,13 +79,14 @@ height: 100%;
     
 }
 .nav-bar ul li a{
-   font-size: 28px;
-   font-weight: 600;
-   color:#228c22;
+   font-size: 20px;
+   font-weight: 300;
+   color:#ffffff;
    text-decoration: none;
+   line-height: 2.7rem;
 }
 .nav-bar ul li a:hover{
-   color:#ffffff;
+   color:#0caf4d;
 
 }
 #close:hover{

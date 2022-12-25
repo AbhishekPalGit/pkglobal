@@ -11,7 +11,13 @@
 
 
 }
-
+.Slider-buttons h2{
+    background-color: black;
+    margin-top: -302px;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
 
 @media only screen and (min-width: 800px ){
 
@@ -19,6 +25,10 @@
     background-size:500px;
     
 }
+.Slider-buttons h2{
+    font-size: 40px;
+}
+
 }
     
 

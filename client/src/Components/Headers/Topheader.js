@@ -2,6 +2,8 @@ import React from 'react'
 import "./Topheader.css"
 import {GiHamburgerMenu} from "react-icons/gi"
 import {MdOutlineClose} from "react-icons/md"
+import {FaAngleDown} from "react-icons/fa"
+
 
 import {BrowserRouter, Link } from "react-router-dom";
 
@@ -27,6 +29,24 @@ const closeburger=function closeburger(){
 
 }
 
+
+const closeAbout=function closeAbout(){
+  if(document.getElementById("about").style.display=="none"){
+    document.getElementById("about").style.display="block"
+  }else if(document.getElementById("about").style.display=="block"){
+    document.getElementById("about").style.display="none"
+
+  }
+}
+const closeProduct=function closeProduct(){
+  if(document.getElementById("product").style.display=="none"){
+    document.getElementById("product").style.display="block"
+  }else if(document.getElementById("product").style.display=="block"){
+    document.getElementById("product").style.display="none"
+
+  }
+}
+
   
 const Topheader = () => {
   return (
@@ -39,13 +59,30 @@ const Topheader = () => {
     </div>
     <div className='pannel' scroll="no">
       <div className='nav-bar'>
-<ul onClick={closeburger}>
+<ul>
   
   
   
-  <li><a href="/">Home</a></li>
-  <li ><a href="/products/spices">About</a></li>
-  <li><a href='/products/spices'>Products</a></li>
+  <li onClick={closeburger}><a href="/"><p>Home</p></a></li><hr/>
+  <li onClick={closeAbout}><a style={{display:"flex"}} ><p style={{width:"90%"}}>About</p><span><FaAngleDown/></span></a>
+  <div id='about' style={{display:"none"}}>
+  <a href="/products/spices"><p>Company</p></a>
+  <a href="/products/spices"><p>Certifications</p></a>
+  <a href="/products/spices"><p>Key Persons</p></a>
+
+  </div></li><hr/>
+  <li onClick={closeburger}><a href='/products/spices'><p>Sourcing Agent</p></a></li><hr/>
+  <li onClick={closeProduct}><a style={{display:"flex"}} ><p style={{width:"90%"}}>Products</p><span><FaAngleDown/></span></a>
+  <div id='product' style={{display:"none"}}>
+  <a href="/products/spices"><p>Company</p></a>
+  <a href="/products/spices"><p>Certifications</p></a>
+  <a href="/products/spices"><p>Key Persons</p></a>
+
+  </div></li><hr/>
+  <li onClick={closeburger}><a href='/products/spices'><p>Reviews</p></a></li><hr/>
+  <li onClick={closeburger}><a href='/products/spices'><p>Contact Us</p></a></li>
+  
+
   
 
   
