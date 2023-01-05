@@ -10,29 +10,37 @@ const Footer = () => {
   	 		<div className="footer-col">
   	 			<h4>Quick Links</h4>
   	 			<ul>
-  	 				<li><a href="#">about us</a></li>
-  	 				<li><a href="#">our services</a></li>
-  	 				<li><a href="#">privacy policy</a></li>
-  	 				<li><a href="#">affiliate program</a></li>
+  	 				<li><a href="/">Home</a></li>
+  	 				<li><a href="/company">About Us</a></li>
+  	 				<li><a href="/keyperson">About Key Persons</a></li>
+  	 				<li><a href="/certification">About Certifications</a></li>
+  	 				<li><a href="/sourcing">Sourcing Agent</a></li>
+  	 				<li><a href="/contact">Contact Us</a></li>
+
   	 			</ul>
   	 		</div>
   	 		<div className="footer-col">
   	 			<h4>Products</h4>
   	 			<ul>
-  	 				<li><a href="#">FAQ</a></li>
-  	 				<li><a href="#">shipping</a></li>
-  	 				<li><a href="#">returns</a></li>
-  	 				<li><a href="#">order status</a></li>
-  	 				<li><a href="#">payment options</a></li>
+				   <li><a href="/products/spices">Spices</a></li>
+
+  	 				<li><a href="/products/handicraft">Handicrafts</a></li>
+  	 				<li><a href="/products/metal">MetalWare</a></li>
+  	 				<li><a href="/products/temple">Temple</a></li>
+  	 				<li><a href="/products/textile">Textile Based</a></li>
+  	 				<li><a href="/products/wood">Wooden Handicrafts</a></li>
+  	 				<li><a href="/products/bamboo">Bamboo Handicrafts</a></li>
+
+					   
   	 			</ul>
   	 		</div>
   	 		<div className="footer-col">
   	 			<h4>Contact Us</h4>
   	 			<ul>
-  	 				<li><a href="#">watch</a></li>
-  	 				<li><a href="#">bag</a></li>
-  	 				<li><a href="#">shoes</a></li>
-  	 				<li><a href="#">dress</a></li>
+  	 				<li><a href="mailto:info@pkglobaloverseas.com">info@pkglobaloverseas.com</a></li>
+  	 				<li><a href="tel:+917500980861">+91 7500980861</a></li>
+  	 				<li><a href="https://goo.gl/maps/4RHj8MwYiuEgGuRY8">Shivaji Nagar Mumbai India</a></li>
+  	 				
   	 			</ul>
   	 		</div>
   	 		<div className="footer-col">
@@ -44,12 +52,12 @@ const Footer = () => {
   	 				<a href="#"><i className="fab fa-linkedin-in"></i></a>
   	 				<a href="#"><i className="fab fa-linkedin-in"></i></a> */}
 					
-					<TiSocialInstagram size={30} style={{color:"white"}}/>
-					<TiSocialFacebookCircular size={30} style={{color:"white",marginLeft:"3px"}}/>
-					<TiSocialYoutube size={30} style={{color:"white",marginLeft:"3px"}}/>
+					<a href="https://instagram.com/pkglobaloverseas?igshid=YmMyMTA2M2Y="><TiSocialInstagram size={30} style={{color:"white"}}/></a>
+				<a href="https://www.facebook.com/Pkglobaloverseas?mibextid=ZbWKwL"><TiSocialFacebookCircular size={30} style={{color:"white",marginLeft:"3px"}}/></a>
+					<a href='https://youtube.com/@pkglobaloverseas'><TiSocialYoutube size={30} style={{color:"white",marginLeft:"3px"}}/></a>
 
-					<TiSocialLinkedinCircular size={30} style={{color:"white",marginLeft:"3px"}}/>
-					<TiSocialTwitterCircular size={30} style={{color:"white",marginLeft:"3px"}}/>
+					<a href="https://www.linkedin.com/company/pk-global-overseas-pvt-ltd/"><TiSocialLinkedinCircular size={30} style={{color:"white",marginLeft:"3px"}}/></a>
+				<a href="https://twitter.com/PKGLOBALOVERSEA">	<TiSocialTwitterCircular size={30} style={{color:"white",marginLeft:"3px"}}/></a>
 
 
 					

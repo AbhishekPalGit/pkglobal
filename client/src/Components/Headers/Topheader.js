@@ -47,7 +47,6 @@ const closeProduct=function closeProduct(){
   }
 }
 
-  
 const Topheader = () => {
   return (
     <div className='header-main'>
@@ -66,21 +65,27 @@ const Topheader = () => {
   <li onClick={closeburger}><a href="/"><p>Home</p></a></li><hr/>
   <li onClick={closeAbout}><a style={{display:"flex"}} ><p style={{width:"90%"}}>About</p><span><FaAngleDown/></span></a>
   <div id='about' style={{display:"none"}}>
-  <a href="/products/spices"><p>Company</p></a>
-  <a href="/products/spices"><p>Certifications</p></a>
-  <a href="/products/spices"><p>Key Persons</p></a>
+  <a href="/company"><p>Company</p></a>
+  <a href="/certification"><p>Certifications</p></a>
+  <a href="/keyperson"><p>Key Persons</p></a>
 
   </div></li><hr/>
-  <li onClick={closeburger}><a href='/products/spices'><p>Sourcing Agent</p></a></li><hr/>
+  <li onClick={closeburger}><a href='/sourcing'><p>Sourcing Agent</p></a></li><hr/>
   <li onClick={closeProduct}><a style={{display:"flex"}} ><p style={{width:"90%"}}>Products</p><span><FaAngleDown/></span></a>
   <div id='product' style={{display:"none"}}>
-  <a href="/products/spices"><p>Company</p></a>
-  <a href="/products/spices"><p>Certifications</p></a>
-  <a href="/products/spices"><p>Key Persons</p></a>
+  <a href="/products/spices"><p>Spices</p></a>
+  <a href="/products/Temple"><p>Temple</p></a>
+  <a href="/products/handicraft"><p>Handicraft</p></a>
+  <a href="/products/textile"><p>Textile Based</p></a>
+  <a href="/products/metal"><p>Metal Ware</p></a>
+
+  <a href="/products/wood"><p>Wooden Handicrafts</p></a>
+  <a href="/products/bamboo"><p>Bamboo Handicrafts</p></a>
+
 
   </div></li><hr/>
-  <li onClick={closeburger}><a href='/products/spices'><p>Reviews</p></a></li><hr/>
-  <li onClick={closeburger}><a href='/products/spices'><p>Contact Us</p></a></li>
+  <li onClick={closeburger}><a href='/review'><p>Reviews</p></a></li><hr/>
+  <li onClick={closeburger}><a href='/contact'><p>Contact Us</p></a></li>
   
 
   

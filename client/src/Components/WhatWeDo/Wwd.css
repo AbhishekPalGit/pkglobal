@@ -13,6 +13,9 @@
     background-color: rgb(255, 255, 255);
     margin: auto;
 }
+.box{
+  min-height: 220px;
+}
 
 /* ////// */
 
@@ -42,6 +45,7 @@
   padding: 25px;
   border-radius: 3px;
   box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+  
 }
 .wrapper .box i.quote{
   font-size: 20px;

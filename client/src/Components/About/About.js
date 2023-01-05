@@ -21,11 +21,11 @@ We are primarily exporters of all Wooden Handicraft products, wooden items, Cera
 The company understands the importance of Quality and Timely Delivery of merchandise in this competitive and challenging International Business scenario.
 
 </p>			</div>
-				<div className="social">
+				{/* <div className="social">
 					 <a href=""><BsFileBarGraphFill className="insta"/></a> 
 					 <a href=""><BsFileBarGraphFill className="twiter"/></a> 
 					 <a href=""><BsFileBarGraphFill className="facebook"/></a> 
-				</div>
+				</div> */}
 			</div>
 			<div className="image-section">
 				 <img id="officeImage" src={office}/> 

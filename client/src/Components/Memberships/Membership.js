@@ -38,7 +38,7 @@ const Membership = () => {
     </button>
     <div className='member-main'>
          
-        <BsFillArrowRightCircleFill size={50} onClick={previous} style={{marginTop:"75px"}}/>
+        <BsFillArrowLeftCircleFill size={50} onClick={previous} style={{marginTop:"75px"}}/>
         <div className='member-box' style={{textAlign:"center"}}>
             <img src='Membership/BrW8o5cM_400x400.jpg' />
         </div>
@@ -57,7 +57,7 @@ const Membership = () => {
         <div className='member-box' style={{textAlign:"center"}}>
         <img src='Membership/imgbin-make-in-india-government-of-india-prime-minister-of-india-manufacturing-india-9TuHa0BuR0sN6ej9jmZRbEMS3.jpg' />
         </div>
-       <BsFillArrowLeftCircleFill size={50} onClick={next} style={{marginTop:"75px"}}/>
+       <BsFillArrowRightCircleFill size={50} onClick={next} style={{marginTop:"75px"}}/>
  
 
         

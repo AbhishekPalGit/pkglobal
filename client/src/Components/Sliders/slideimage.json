@@ -1,26 +1,27 @@
 [
   {
-    "slide": "SliderImage/ship.jpg",
+    "slide": "https://res.cloudinary.com/dgdcizccz/image/upload/v1672161369/cargo_e24cfx.jpg",
     "title": "Welcome To PK GLOBAL OVERSEAS PVT LTD."
   },
   {
-    "slide": "SliderImage/port.jpg",
+    "slide": "/premium.jpeg",
     "title": "Enter in the World of Premium Quality Products."
   },
   {
-    "slide": "SliderImage/plane.jpg",
+    "slide": "/photo2.jpeg",
     "title": "100% Transparent Export & Satisfied Clients."
   },
   {
-    "slide": "SliderImage/portt.jpg",
+    
+    "slide":"/aeroplane.jpeg",
     "title": "We provide very fast delivery"
   },
   {
-    "slide": "SliderImage/ocean.jpg",
+    "slide": "https://res.cloudinary.com/dgdcizccz/image/upload/v1672161388/port_jb5kkh.jpg",
     "title": "Enter in the World of Premium Quality Products."
   },
   {
-    "slide": "SliderImage/cargo.jpg",
+    "slide": "/SliderImage/portt.jpg",
     "title": "Enter in the World of Premium Quality Products."
   }
 ]
