@@ -10,7 +10,7 @@ const Spices = () => {
         </div>
         <div className="about-block" style={{width:"100%",minHeight:"40vh",backgroundColor:"white"}}>
           <div className='aboutBlock-left' style={{width:"100%",height:"100%",backgroundColor:"white",textAlign:"center",paddingTop:"20px"}}>
-            <img src={"/SpicesImage/masalej.png"} style={{width:"90%",height:"90%"}}/>
+            <img src={"/HeadImg/SPICES CATEGORY PHOTO.jpg"} style={{width:"90%",height:"90%"}}/>
           </div>
           <div className='aboutBlock-right' style={{width:"100%",height:"100%",backgroundColor:"white",paddingTop:"20px",paddingRight:"20px",paddingLeft:"20px"}}>
                 <h2>About Spices</h2>
@@ -31,44 +31,57 @@ we believe that Indian culture and our unique spices in India should reach each 
             <h2>SPICES</h2>
         </button>
         <div className="cards">
-  <div className="card">
-    <img className="card__image" style={{border:"2px solid #ebb4b4",padding:"20px",borderRadius:"4px"}} src={"/SpicesImage/MADRAS.png"} alt=""/>
-    
+  <div className="card"><div className="card-in">
+    <img className="card__image" style={{borderRadius:"4px"}} src={"/Productsphoto/2. SPICES/Black-Pepper-Powder.png"} alt=""/>
+    bhsxbshxb
+    </div>
     
   </div>
 
-  <div className="card">
-    <img className="card__image" style={{border:"2px solid #ebb4b4",padding:"20px",borderRadius:"4px"}} src={"/SpicesImage/masalej.png"} alt=""/>
+  <div className="card"><div className="card-in">
+    <img className="card__image" style={{borderRadius:"4px"}} src={"/Productsphoto/2. SPICES/Clove-Powder.png"} alt=""/>
+    xsnxjsnxsx
+    </div>
     
-    
-  </div><div className="card">
-    <img className="card__image" style={{border:"2px solid #ebb4b4",padding:"20px",borderRadius:"4px"}} src={"/SpicesImage/Cinnamon.png"} alt=""/>
-   
-    
-  </div>
-  <div className="card">
-    <img className="card__image" style={{border:"2px solid #ebb4b4",padding:"20px",borderRadius:"4px"}} src={"/SpicesImage/Masale.png"} alt=""/>
+  </div><div className="card"><div className="card-in">
+    <img className="card__image" style={{borderRadius:"4px"}} src={"/Productsphoto/2. SPICES/Coriander-Seeds.png"} alt=""/>
+    hbshxsbxhs
+   </div>
     
   </div>
-  <div className="card">
-    <img className="card__image" style={{border:"2px solid #ebb4b4",padding:"20px",borderRadius:"4px"}} src={"/Productsphoto/Masalas/mockupo-nOyjlj-dse0-unsplash.jpg"} alt=""/>
-   
-    
-  </div>
-  <div className="card">
-    <img className="card__image" style={{border:"2px solid #ebb4b4",padding:"20px",borderRadius:"4px"}} src={"/Productsphoto/Masalas/jaspreet-kalsi-2P0EFD18NYA-unsplash.jpg"} alt=""/>
-   
-    
-  </div>
-  <div className="card">
-    <img className="card__image" style={{border:"2px solid #ebb4b4",padding:"20px",borderRadius:"4px"}} src={"/Productsphoto/Masalas/towfiqu-barbhuiya-ul3G99O5oIA-unsplash.jpg"} alt=""/>
-    
-  </div><div className="card">
-    <img className="card__image" style={{border:"2px solid #ebb4b4",padding:"20px",borderRadius:"4px"}} src={"/Productsphoto/Masalas/vd-photography-1VTEK-sA8w8-unsplash.jpg"} alt=""/>
-    
+  <div className="card"><div className="card-in">
+    <img className="card__image" style={{borderRadius:"4px"}} src={"/Productsphoto/2. SPICES/Cumin-Seeds.png"} alt=""></img>
+    cdcdcdcd
+    </div>
   </div>
   
+  
 </div>
+<div style={{textAlign:"center",textDecoration:"none",color:"grey"}}><h2>- Preminum Pakaging -</h2></div>
+      <div className="cards">
+       
+      <div className="card"><div className="card-in">
+    <img className="card__image" style={{borderRadius:"4px"}} src={"/Productsphoto/2. SPICES/PREMIUM PACKAGING/spicee.png"} alt=""></img>
+    cdcdcdcd
+    </div>
+  </div>
+  <div className="card"><div className="card-in">
+    <img className="card__image" style={{borderRadius:"4px"}} src={"/Productsphoto/2. SPICES/PREMIUM PACKAGING/Cinnamon.png"} alt=""></img>
+    cdcdcdcd
+    </div>
+  </div>
+  <div className="card"><div className="card-in">
+    <img className="card__image" style={{borderRadius:"4px"}} src={"/Productsphoto/2. SPICES/PREMIUM PACKAGING/MADRAS.png"} alt=""></img>
+    cdcdcdcd
+    </div>
+  </div>
+  <div className="card"><div className="card-in">
+    <img className="card__image" style={{borderRadius:"4px"}} src={"/Productsphoto/2. SPICES/PREMIUM PACKAGING/Makhana.png"} alt=""></img>
+    cdcdcdcd
+    </div>
+  </div>
+        
+      </div>
 
     </div>
   )

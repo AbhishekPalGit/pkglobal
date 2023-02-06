@@ -7,7 +7,9 @@ import Testimonial from '../Components/Testimonials/Testimonial.js'
 import Weprovide from '../Components/Weprovide/Weprovide.js'
 import Choose from '../Components/ChooseUs/Choose.js';
 import Membership from '../Components/Memberships/Membership.js'
+import Quatation from "../Components/contact/Quatation"
 import { useEffect } from 'react'
+import Poster from '../Components/Poster.js'
 
 
 const Home = () => {
@@ -21,12 +23,14 @@ const Home = () => {
   return (
     <div>
         
-       <Slider/>
+       {/* <Slider/> */}
+       <Poster/>
         <About/>
         <Wwd/>
        <Weprovide/>
        <Choose/>
         <Testimonial id="review"/>
+        <Quatation/>
         <Membership/>
       
 

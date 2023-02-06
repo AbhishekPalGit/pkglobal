@@ -51,6 +51,7 @@
 	font-family: 'Poppins', sans-serif;
 }
 .section{
+	margin-top: -10px;
 	width: 100%;
 	min-height: 100vh;
 	background-color: #ddd;
@@ -88,6 +89,7 @@
 	font-family: sans-serif;
 	line-height: 1.5;
     font-size: 1.2em;
+	text-align: justify;
 }
 .content-section .content .button{
 	margin-top: 30px;
@@ -152,6 +154,7 @@
 .content-section .title{
 	text-align: center;
 	font-size: 19px;
+	
 }
 .content-section .content .button{
 	text-align: center;

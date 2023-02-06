@@ -25,6 +25,14 @@ import Contact from './Components/contact/Contact';
 import {useEffect} from 'react'
 import Sourcing from './Components/Sourcing';
 import Review from './Components/Testimonials/Review';
+import Glass from './Components/Glass/Glass';
+import Leather from './Components/Products/Leather';
+import Jwellary from './Components/Products/Jwellery';
+import Clothing from './Components/Products/Clothing';
+import Fruits from './Components/Products/Fruits';
+import Grocery from './Components/Products/Grocery';
+import Furniture from './Components/Products/Furniture';
+import Ceremic from './Components/Products/Ceremic';
 
 
 
@@ -52,8 +60,18 @@ function App() {
         <Route exact path="/" element={<Home/>}></Route>
         <Route exact path="/products/spices" element={<Spices/>}></Route>
         <Route exact path="/products/Temple" element={<Temple/>}></Route>
+        <Route exact path="/products/Leather" element={<Leather/>}></Route>
+        <Route exact path="/products/jwellery" element={<Jwellary/>}></Route>
+        <Route exact path="/products/clothing" element={<Clothing/>}></Route>
+        <Route exact path="/products/Fruit&veg" element={<Fruits/>}></Route>
+        <Route exact path="/products/grocery" element={<Grocery/>}></Route>
+        <Route exact path="/products/furniture" element={<Furniture/>}></Route>
+        <Route exact path="/products/ceremic" element={<Ceremic/>}></Route>
+
+
+
         <Route exact path="/products/handicraft" element={<Handicraft/>}></Route>
-        <Route exact path="/products/textile" element={<Textile/>}></Route>
+        <Route exact path="/products/glass" element={<Glass/>}></Route>
         <Route exact path="/products/metal" element={<Metal/>}></Route>
         <Route exact path="/products/wood" element={<Wooden/>}></Route>
         <Route exact path="/products/bamboo" element={<Bamboo/>}></Route>
@@ -63,6 +81,7 @@ function App() {
         <Route exact path="/contact" element={<Contact/>}></Route>
         <Route exact path="/review" element={<Review/>}></Route>
         <Route exact path="/sourcing" element={<Sourcing/>}></Route>
+        
         
 
 

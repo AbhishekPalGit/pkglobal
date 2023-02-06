@@ -47,7 +47,7 @@ const Contact = () => {
         >
           <h4>What's Your Query?</h4>
           <form
-            action="https://script.google.com/macros/s/AKfycbxYLo5SFsHBmgfKbLwmVWfatO4Zse__TfJoyNaq-rWh5spBirvzJe8xUilwY3VtGG4_/exec"
+            action="https://script.google.com/macros/s/AKfycbw7SW9sNiAoLFJjROs7IzJBzUHUfeOUW6PYvMoyCe5De8H0mI78CndQX6SulZYHq29JQQ/exec"
             method="post"
           >
             <input

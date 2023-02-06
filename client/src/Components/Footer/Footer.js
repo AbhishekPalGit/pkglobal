@@ -27,7 +27,7 @@ const Footer = () => {
   	 				<li><a href="/products/handicraft">Handicrafts</a></li>
   	 				<li><a href="/products/metal">MetalWare</a></li>
   	 				<li><a href="/products/temple">Temple</a></li>
-  	 				<li><a href="/products/textile">Textile Based</a></li>
+  	 				<li><a href="/products/glass">Glass Products</a></li>
   	 				<li><a href="/products/wood">Wooden Handicrafts</a></li>
   	 				<li><a href="/products/bamboo">Bamboo Handicrafts</a></li>
 

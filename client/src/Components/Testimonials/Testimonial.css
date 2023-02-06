@@ -18,9 +18,10 @@
     padding: 25px;
 }
 .testimonial-box{
-    width: 0%;
-    height: 200px;
+    width: 300px;
+    height: 250px;
     transition: width 0.7s;
+    padding-left: 95px;
 
     
 }
@@ -82,4 +83,11 @@
 
     font-size: 0.8rem;
     }
+  }
+  .testimonial-box p {
+    font-size: 0.6rem;
+  }
+  .testimonial-box h4 {
+
+  font-size: 0.8rem;
   }

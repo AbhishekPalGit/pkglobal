@@ -54,7 +54,36 @@ const Topheader = () => {
     <div className='logo'><img className='logo-image' src={logo}></img></div>
     <h1 className='openburger' style={{zindex:"1",color:"white"}}><GiHamburgerMenu onMouseOver={({target})=>target.style.color="white"} onMouseOut={({target})=>target.style.color="#228c22"}  onClick={openburger} style={{color:"#228c22"}}/></h1>
     <h1 className='closeburger' style={{zindex:"1",color:"white"}}><MdOutlineClose onMouseOver={({target})=>target.style.color="white"} onMouseOut={({target})=>target.style.color="#228c22"} onClick={closeburger} style={{color:"#228c22"}}/></h1>
+   {/* /// */}
+    <div className='desktopMenu' style={{minWidth:"62%"}} >
+      <ul style={{display:"flex",justifyContent:"space-evenly",justifyContent:"space-between"}} >
+        <li className='liabc' style={{color:"white",cursor:"pointer"}}>Home	</li>
+        <li className='liabc' style={{color:"white",cursor:"pointer"}}>About&nbsp;&nbsp;<i class="fa fa-angle-down">
 
+          </i>
+          <div class="dropdown-content" >
+          <li className='liabc' style={{color:"white",cursor:"pointer"}}>Company	</li>
+          <li className='liabc' style={{color:"white",cursor:"pointer",marginTop:"10px"}}>Certifications	</li>
+          <li className='liabc' style={{color:"white",cursor:"pointer",marginTop:"10px"}}>Key Persons</li>
+
+  </div>
+          
+          </li>
+        <li className='liabc' style={{color:"white",cursor:"pointer"}}>Sourcing Agent</li>
+        <li className='liabc' style={{color:"white",cursor:"pointer"}}>Products&nbsp;&nbsp;<i class="fa fa-angle-down"></i>
+        <div class="dropdown-content" >
+          <li className='liabc' style={{color:"white",cursor:"pointer"}}>Home	</li>
+          <li className='liabc' style={{color:"white",cursor:"pointer",marginTop:"10px"}}>Home	</li>
+          <li className='liabc' style={{color:"white",cursor:"pointer",marginTop:"10px"}}>Home	</li>
+
+  </div>
+        </li>
+        <li className='liabc' style={{color:"white",cursor:"pointer"}}>Reviews</li>
+        <li className='liabc' style={{color:"white",cursor:"pointer"}}>Contact Us</li>
+
+      </ul>
+    </div>
+    {/* ///// */}
     </div>
     <div className='pannel' scroll="no">
       <div className='nav-bar'>
@@ -76,7 +105,7 @@ const Topheader = () => {
   <a href="/products/spices"><p>Spices</p></a>
   <a href="/products/Temple"><p>Temple</p></a>
   <a href="/products/handicraft"><p>Handicraft</p></a>
-  <a href="/products/textile"><p>Textile Based</p></a>
+  <a href="/products/glass"><p>Glass Products</p></a>
   <a href="/products/metal"><p>Metal Ware</p></a>
 
   <a href="/products/wood"><p>Wooden Handicrafts</p></a>

@@ -10,7 +10,7 @@ const Temple = () => {
         </div>
         <div className="about-block" style={{width:"100%",minHeight:"40vh",backgroundColor:"white"}}>
           <div className='aboutBlock-left' style={{width:"100%",height:"100%",backgroundColor:"white",textAlign:"center",paddingTop:"20px"}}>
-            <img src={"/Productsphoto/Temple/48fec38a-e31a-4b50-9b14-efd1e946c76d.jpg"} style={{width:"90%",height:"90%"}}/>
+            <img src={"/HeadImg/TEMPLE CATEGORY PHOTO.jpeg"} style={{width:"90%",height:"90%"}}/>
           </div>
           <div className='aboutBlock-right' style={{width:"100%",height:"100%",backgroundColor:"white",paddingTop:"20px",paddingRight:"20px",paddingLeft:"20px"}}>
                 <h2>About Temple</h2>
@@ -28,45 +28,82 @@ Get free temple design with vastu shastra according to your space.
         <button className='Spices-head'>
             <h2>Temple</h2>
         </button>
-        <div className="cards">
-  <div className="card">
-    <img className="card__image" style={{border:"2px solid #ebb4b4",padding:"20px",borderRadius:"4px"}} src={"/Productsphoto/Temple/IMG_20220429_181735.jpg"} alt=""/>
-    
-    
+        <div style={{textAlign:"center",textDecoration:"none",color:"grey"}}><h2>- Big Temples -</h2></div>
+      <div className="cards">
+       
+      <div className="card"><div className="card-in">
+    <img className="card__image" style={{borderRadius:"4px"}} src={"/Productsphoto/3. TEMPLES/BIG TEMPLES/BANSI PAHADPUR STONE TEMPLE.jpg"} alt=""></img>
+    cdcdcdcd
+    </div>
   </div>
+  <div className="card"><div className="card-in">
+    <img className="card__image" style={{borderRadius:"4px"}} src={"/Productsphoto/3. TEMPLES/BIG TEMPLES/JAISALMER STONE TEMPLE.jpg"} alt=""></img>
+    cdcdcdcd
+    </div>
+  </div>
+  <div className="card"><div className="card-in">
+    <img className="card__image" style={{borderRadius:"4px"}} src={"/Productsphoto/3. TEMPLES/BIG TEMPLES/MAKRANA MARBLE TEMPLE.jpg"} alt=""></img>
+    cdcdcdcd
+    </div>
+  </div>
+  <div className="card"><div className="card-in">
+    <img className="card__image" style={{borderRadius:"4px"}} src={"/Productsphoto/3. TEMPLES/BIG TEMPLES/MAKRANA WHITE MARBLE TEMPLE.jpg"} alt=""></img>
+    cdcdcdcd
+    </div>
+  </div>
+        
+      </div>
 
-  <div className="card">
-    <img className="card__image" style={{border:"2px solid #ebb4b4",padding:"20px",borderRadius:"4px"}} src={"/Productsphoto/Temple/FB_IMG_1662046147420.jpg"} alt=""/>
-    
-    
-  </div><div className="card">
-    <img className="card__image" style={{border:"2px solid #ebb4b4",padding:"20px",borderRadius:"4px"}} src={"/Productsphoto/Temple/633e9bb0-69a8-4e90-83d6-b69dace5b6ac.jpg"} alt=""/>
-   
-    
+      <div style={{textAlign:"center",textDecoration:"none",color:"grey"}}><h2>- House Temples -</h2></div>
+      <div className="cards">
+       
+      <div className="card"><div className="card-in">
+    <img className="card__image" style={{borderRadius:"4px"}} src={"/Productsphoto/3. TEMPLES/HOUSE TEMPLES/7f9d4c58a47810deb00742e32fd96caa.jpg"} alt=""></img>
+    cdcdcdcd
+    </div>
   </div>
-  <div className="card">
-    <img className="card__image" style={{border:"2px solid #ebb4b4",padding:"20px",borderRadius:"4px"}} src={"/Productsphoto/Temple/IMG_20220429_185545.jpg"} alt=""/>
-    
+  <div className="card"><div className="card-in">
+    <img className="card__image" style={{borderRadius:"4px"}} src={"/Productsphoto/3. TEMPLES/HOUSE TEMPLES/8d783409-c7aa-4614-b263-80dd6133ad27.jpeg"} alt=""></img>
+    cdcdcdcd
+    </div>
   </div>
-  <div className="card">
-    <img className="card__image" style={{border:"2px solid #ebb4b4",padding:"20px",borderRadius:"4px"}} src={"/Productsphoto/Temple/ecebccb3-1df3-4871-bb23-d984c76b3bad.jpg"} alt=""/>
-   
-    
+  <div className="card"><div className="card-in">
+    <img className="card__image" style={{borderRadius:"4px"}} src={"/Productsphoto/3. TEMPLES/HOUSE TEMPLES/9067616e-4d99-4ad6-920c-521d39ea79e0.jpeg"} alt=""></img>
+    cdcdcdcd
+    </div>
   </div>
-  <div className="card">
-    <img className="card__image" style={{border:"2px solid #ebb4b4",padding:"20px",borderRadius:"4px"}} src={"/Productsphoto/Temple/IMG-20220413-WA0004.jpg"} alt=""/>
-   
-    
+  <div className="card"><div className="card-in">
+    <img className="card__image" style={{borderRadius:"4px"}} src={"/Productsphoto/3. TEMPLES/HOUSE TEMPLES/85085068-c652-4c34-ac7d-9c90a0a81d45.jpeg"} alt=""></img>
+    cdcdcdcd
+    </div>
   </div>
-  <div className="card">
-    <img className="card__image" style={{border:"2px solid #ebb4b4",padding:"20px",borderRadius:"4px"}} src={"/Productsphoto/Temple/WhatsApp Image 2022-12-05 at 21.26.04.jpg"} alt=""/>
-    
-  </div><div className="card">
-    <img className="card__image" style={{border:"2px solid #ebb4b4",padding:"20px",borderRadius:"4px"}} src={"/Productsphoto/Temple/whyus.jpg"} alt=""/>
-    
+        
+      </div><div style={{textAlign:"center",textDecoration:"none",color:"grey"}}><h2>- Marble Statues -</h2></div>
+      <div className="cards">
+       
+      <div className="card"><div className="card-in">
+    <img className="card__image" style={{borderRadius:"4px"}} src={"/Productsphoto/3. TEMPLES/MARBLE STATUES/AMBE MAA STATUE.jpg"} alt=""></img>
+    cdcdcdcd
+    </div>
   </div>
+  <div className="card"><div className="card-in">
+    <img className="card__image" style={{borderRadius:"4px"}} src={"/Productsphoto/3. TEMPLES/MARBLE STATUES/AYYAPPAN STATUE.jpg"} alt=""></img>
+    cdcdcdcd
+    </div>
+  </div>
+  <div className="card"><div className="card-in">
+    <img className="card__image" style={{borderRadius:"4px"}} src={"/Productsphoto/3. TEMPLES/MARBLE STATUES/GAUTAM SWAMI STATUE.jpg"} alt=""></img>
+    cdcdcdcd
+    </div>
+  </div>
+  <div className="card"><div className="card-in">
+    <img className="card__image" style={{borderRadius:"4px"}} src={"/Productsphoto/3. TEMPLES/MARBLE STATUES/LAKSHMI NARAYAN STATUE.jpg"} alt=""></img>
+    cdcdcdcd
+    </div>
+  </div>
+        
+      </div>
   
-</div>
     </div>
   )
 }

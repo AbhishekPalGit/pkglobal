@@ -36,7 +36,7 @@ const Handicraft = () => {
           }}
         >
           <img
-            src={"/Productsphoto/Handicrafts/COLLAGE HANDICRAFTS.png"}
+            src={"/HeadImg/HANDICRAFTS CATEGORY PHOTO.jpg"}
             style={{ width: "90%", height: "90%" }}
           />
         </div>
@@ -63,7 +63,7 @@ const Handicraft = () => {
           </p>
         </div>
       </div>
-      <button className="Spices-head">
+      {/* <button className="Spices-head">
         <h2>Ceramic Handicrafts</h2>
       </button>
       <div className="cards">
@@ -263,11 +263,13 @@ const Handicraft = () => {
           />
         </div>
         
-      </div>
+      </div> */}
       <button className="Spices-head">
         <h2>Stone Handicrafts</h2>
       </button>
+      <div style={{textAlign:"center",textDecoration:"none",color:"grey",marginTop:"10px"}}><h2>- Table Top -</h2></div>
       <div className="cards">
+   
         <div className="card">
           <img
             className="card__image"
@@ -276,22 +278,7 @@ const Handicraft = () => {
               padding: "20px",
               borderRadius: "4px",
             }}
-            src={
-              "/Productsphoto/Handicrafts/Stone Craft/315944544_5781662938543866_8265274062850628379_n.jpg"
-            }
-            alt=""
-          />
-        </div>
-
-        <div className="card">
-          <img
-            className="card__image"
-            style={{
-              border: "2px solid #ebb4b4",
-              padding: "20px",
-              borderRadius: "4px",
-            }}
-            src={"/Productsphoto/Handicrafts/Stone Craft/247672713_4594850303891808_8993547448314566637_n.jpg"}
+            src={"/Productsphoto/stoneCraft/TABLE TOP/Walnut Table With White Epoxy Resin.jpeg"}
             alt=""
           />
         </div>
@@ -304,7 +291,7 @@ const Handicraft = () => {
               borderRadius: "4px",
             }}
             src={
-              "/Productsphoto/Handicrafts/Stone Craft/6.jpg"
+              "/Productsphoto/stoneCraft/TABLE TOP/OCTA BLACK MARBLE INLAY TABLE TOP.jpeg"
             }
             alt=""
           />
@@ -317,21 +304,7 @@ const Handicraft = () => {
               padding: "20px",
               borderRadius: "4px",
             }}
-            src={
-              "/Productsphoto/Handicrafts/Stone Craft/5.jpg"
-            }
-            alt=""
-          />
-        </div>
-        <div className="card">
-          <img
-            className="card__image"
-            style={{
-              border: "2px solid #ebb4b4",
-              padding: "20px",
-              borderRadius: "4px",
-            }}
-            src={"/Productsphoto/Handicrafts/Stone Craft/3.jpg"}
+            src={"/Productsphoto/stoneCraft/TABLE TOP/OCTA MARBLE INLAY TABLE TOP.jpeg"}
             alt=""
           />
         </div>
@@ -344,40 +317,362 @@ const Handicraft = () => {
               borderRadius: "4px",
             }}
             src={
-              "/Productsphoto/Handicrafts/Stone Craft/1.jpg"
-            }
-            alt=""
-          />
-        </div>
-        <div className="card">
-          <img
-            className="card__image"
-            style={{
-              border: "2px solid #ebb4b4",
-              padding: "20px",
-              borderRadius: "4px",
-            }}
-            src={"/Productsphoto/Handicrafts/Stone Craft/BOX STONE.jpg"}
-            alt=""
-          />
-        </div>
-        <div className="card">
-          <img
-            className="card__image"
-            style={{
-              border: "2px solid #ebb4b4",
-              padding: "20px",
-              borderRadius: "4px",
-            }}
-            src={
-              "/Productsphoto/Handicrafts/Stone Craft/CARD HOLDER.jpg"
+              "/Productsphoto/stoneCraft/TABLE TOP/Table Top Archives - Marble Inlay Handicraft Products.png"
             }
             alt=""
           />
         </div>
         
       </div>
-      <button className="Spices-head">
+      {/* //// */}
+      <div style={{textAlign:"center",textDecoration:"none",color:"grey"}}><h2>- Storage Boxes -</h2></div>
+      <div className="cards">
+      
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={"/Productsphoto/stoneCraft/STORAGE BOXES/MARBLE INLAY BOX.jpeg"}
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={
+              "/Productsphoto/stoneCraft/STORAGE BOXES/Marble Inlay Jewelry Box.png"
+            }
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={"/Productsphoto/stoneCraft/STORAGE BOXES/Marble Lidded Box.jpeg"}
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={
+              "/Productsphoto/stoneCraft/STORAGE BOXES/Marble Marquetry Inlay Jewelry Storage Box.jpeg"
+            }
+            alt=""
+          />
+        </div>
+        
+      </div>
+      {/* /////// 33333 */}
+      <div style={{textAlign:"center",textDecoration:"none",color:"grey"}}><h2>- Kitchen Accesories -</h2></div>
+      <div className="cards">
+        
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={"/Productsphoto/stoneCraft/KITCHEN ACCESORIES/Marble Fruit Bowl.jpeg"}
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={
+              "/Productsphoto/stoneCraft/KITCHEN ACCESORIES/Marble Inlay Round Plate.png"
+            }
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={"/Productsphoto/stoneCraft/KITCHEN ACCESORIES/Marble Pantryware.jpeg"}
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={
+              "/Productsphoto/stoneCraft/KITCHEN ACCESORIES/Marble serving boards and canisters.jpeg"
+            }
+            alt=""
+          />
+        </div>
+        
+      </div>
+      {/* //// 4444*/}
+      <div style={{textAlign:"center",textDecoration:"none",color:"grey"}}><h2>- Decoratives -</h2></div>
+      <div className="cards">
+      
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={"/Productsphoto/stoneCraft/DECORATIVES/Ashtray.jpeg"}
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={
+              "/Productsphoto/stoneCraft/DECORATIVES/CANDLE HOLDER.jpg"
+            }
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={"/Productsphoto/stoneCraft/DECORATIVES/FLOWER POT.png"}
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={
+              "/Productsphoto/stoneCraft/DECORATIVES/LAMP.jpg"
+            }
+            alt=""
+          />
+        </div>
+        
+      </div>
+      {/* //////5555 */}
+      <div style={{textAlign:"center",textDecoration:"none",color:"grey"}}><h2>- Coaster -</h2></div>
+      <div className="cards">
+       
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={"/Productsphoto/stoneCraft/COASTER/INLAY COASTER.jpg"}
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={
+              "/Productsphoto/stoneCraft/COASTER/MARBLE WITH WOODEN COASTER.jpeg"
+            }
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={"/Productsphoto/stoneCraft/COASTER/ROUNDED COASTER.jpeg"}
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={
+              "/Productsphoto/stoneCraft/COASTER/STAR SHAPE Marble Coasters.jpeg"
+            }
+            alt=""
+          />
+        </div>
+        
+      </div>
+      {/* ///////6666 */}
+      <div style={{textAlign:"center",textDecoration:"none",color:"grey"}}><h2>- Chess -</h2></div>
+      <div className="cards">
+        
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={"/Productsphoto/stoneCraft/CHESS/Chess Table Green Marble.jpeg"}
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={
+              "/Productsphoto/stoneCraft/CHESS/Marble INLAY Chess Board.jpeg"
+            }
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={"/Productsphoto/stoneCraft/CHESS/OCTAGONAL CHESS.jpeg"}
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={
+              "/Productsphoto/stoneCraft/CHESS/OCTAGONAL Marble Inlay Chess Board.jpeg"
+            }
+            alt=""
+          />
+        </div>
+        
+      </div>
+      {/* ////77777 */}
+      <div style={{textAlign:"center",textDecoration:"none",color:"grey"}}><h2>- Bathroom Accesories -</h2></div>
+      <div className="cards">
+       
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={"/Productsphoto/stoneCraft/BATHROOM ACCESORIES/Bath Accessories.jpeg"}
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={
+              "/Productsphoto/stoneCraft/BATHROOM ACCESORIES/SOAP DISH.jpeg"
+            }
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={"/Productsphoto/stoneCraft/BATHROOM ACCESORIES/SOAP DISPENSER.jpeg"}
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={
+              "/Productsphoto/stoneCraft/BATHROOM ACCESORIES/TOOTHBRUSH HOLDER.jpeg"
+            }
+            alt=""
+          />
+        </div>
+        
+      </div>
+      {/* <button className="Spices-head">
         <h2>Imitation Jwellary Handicrafts</h2>
       </button>
       <div className="cards">
@@ -490,9 +785,9 @@ const Handicraft = () => {
         </div>
         
         
-      </div>
-      <Metal/>
-      <Textile/>
+      </div> */}
+      {/* <Metal/>
+      <Textile/> */}
       <Wooden/>
       <Bamboo/>
 

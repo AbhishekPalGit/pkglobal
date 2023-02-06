@@ -102,3 +102,10 @@
 .contact-icon-desktop{
     display: block;
 }
+.card-in{
+    border: 2px solid #ebb4b4;
+    padding:20px;
+    border-radius: 4px;
+    text-align: center;
+
+}

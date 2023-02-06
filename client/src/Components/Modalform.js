@@ -19,7 +19,7 @@ const showpopup=()=>{
     <Dialog open={popup}>
         <DialogTitle><div style={{textAlign:"right"}}><ImCross onClick={hidepopup}/></div><h4 style={{textAlign:"center"}}>Welcome To Pk Global!</h4></DialogTitle>
         <DialogContent style={{textAlign:"center"}}>
-            <form action='https://script.google.com/macros/s/AKfycbxYLo5SFsHBmgfKbLwmVWfatO4Zse__TfJoyNaq-rWh5spBirvzJe8xUilwY3VtGG4_/exec' method='post'>
+            <form action='https://script.google.com/macros/s/AKfycbw7SW9sNiAoLFJjROs7IzJBzUHUfeOUW6PYvMoyCe5De8H0mI78CndQX6SulZYHq29JQQ/exec' method='post'>
                 <input name="name" placeholder='Enter Your Name' type="text" style={{textAlign:"center", width:"90%",height:"50px",marginTop:"10px", boxSizing:"border-box"}} required></input>
                 <input name="email" placeholder='Enter Your Email' type="mail" style={{textAlign:"center", width:"90%",height:"50px",marginTop:"28px"}} required></input>
                 <input name="phone" placeholder='Enter Your Phone No' style={{textAlign:"center", width:"90%",height:"50px",marginTop:"28px"}} required></input>

@@ -14,7 +14,7 @@
     margin: auto;
 }
 .box{
-  min-height: 220px;
+  height: 315px;
 }
 
 /* ////// */
@@ -38,6 +38,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  padding-top: 30px;
 }
 .wrapper .box{
   background: #fff;

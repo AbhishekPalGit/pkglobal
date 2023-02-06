@@ -71,7 +71,7 @@ const Bamboo = () => {
               padding: "20px",
               borderRadius: "4px",
             }}
-            src={"/Productsphoto/Handicrafts/BAMBOOhandicrafts/BAMBOO BANGLES.jpg"}
+            src={"/3. BAMBOO HANDICRAFTS/BAMBOO BANGLES.jpg"}
             alt=""
           />
         </div>
@@ -84,7 +84,7 @@ const Bamboo = () => {
               padding: "20px",
               borderRadius: "4px",
             }}
-            src={"/Productsphoto/Handicrafts/BAMBOOhandicrafts/BAMBOO PENS.png"}
+            src={"/3. BAMBOO HANDICRAFTS/BAMBOO CAN BAR CHAIR.jpg"}
             alt=""
           />
         </div>
@@ -97,7 +97,7 @@ const Bamboo = () => {
               borderRadius: "4px",
             }}
             src={
-              "/Productsphoto/Handicrafts/BAMBOOhandicrafts/BI-Bamboo_Razor-2.0-01_1000x.png"
+              "/3. BAMBOO HANDICRAFTS/bamboo Earbuds.png"
             }
             alt=""
           />
@@ -110,7 +110,7 @@ const Bamboo = () => {
               padding: "20px",
               borderRadius: "4px",
             }}
-            src={"/Productsphoto/Handicrafts/BAMBOOhandicrafts/COMB.png"}
+            src={"/3. BAMBOO HANDICRAFTS/bAMBOO NATURAL STRAWS.png"}
             alt=""
           />
         </div>
@@ -123,7 +123,7 @@ const Bamboo = () => {
               borderRadius: "4px",
             }}
             src={
-              "/Productsphoto/Handicrafts/BAMBOOhandicrafts/CUP.jpg"
+              "/3. BAMBOO HANDICRAFTS/BAMBOO PENS.png"
             }
             alt=""
           />
@@ -136,7 +136,7 @@ const Bamboo = () => {
               padding: "20px",
               borderRadius: "4px",
             }}
-            src={"/Productsphoto/Handicrafts/BAMBOOhandicrafts/FLOWER POTS.jpg"}
+            src={"/3. BAMBOO HANDICRAFTS/COMB.png"}
             alt=""
           />
         </div>
@@ -149,7 +149,7 @@ const Bamboo = () => {
               borderRadius: "4px",
             }}
             src={
-              "/Productsphoto/Handicrafts/BAMBOOhandicrafts/CURTAINS.jpg"
+              "/3. BAMBOO HANDICRAFTS/CURTAINS.jpg"
             }
             alt=""
           />
@@ -162,7 +162,7 @@ const Bamboo = () => {
               padding: "20px",
               borderRadius: "4px",
             }}
-            src={"/Productsphoto/Handicrafts/BAMBOOhandicrafts/BOTTLE.jpg"}
+            src={"/3. BAMBOO HANDICRAFTS/KEY SAFE.png"}
             alt=""
           />
         </div>

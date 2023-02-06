@@ -21,48 +21,397 @@ const Wooden = () => {
           </div>
 
 </div>
-        <button className='Spices-head'>
-            <h2>Wooden Craft</h2>
-        </button>
-        <div className="cards">
-  <div className="card">
-    <img className="card__image" style={{border:"2px solid #ebb4b4",padding:"20px",borderRadius:"4px"}} src={"/Productsphoto/Handicrafts/WoodenCraft/246456493_4597062357003936_4028978903598869042_n.jpg"} alt=""/>
-    
-    
-  </div>
+<button className="Spices-head">
+        <h2>Wooden Handicrafts</h2>
+      </button>
+      <div style={{textAlign:"center",textDecoration:"none",color:"grey",marginTop:"10px"}}><h2>-- WOODEN EPOXY TABLE TOP --</h2></div>
+      <div className="cards">
+   
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={"/Productsphoto/Wooden Handicraft/WOODEN EPOXY TABLE TOP/DINNING TABLE.jpeg"}
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={
+              "/Productsphoto/Wooden Handicraft/WOODEN EPOXY TABLE TOP/Epoxy Resin Round Table.jpeg"
+            }
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={"/Productsphoto/Wooden Handicraft/WOODEN EPOXY TABLE TOP/Green RESIN TABLE.jpeg"}
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={
+              "/Productsphoto/Wooden Handicraft/WOODEN EPOXY TABLE TOP/natural wood epoxy table.jpeg"
+            }
+            alt=""
+          />
+        </div>
+        
+      </div>
+      {/* //// */}
+      <div style={{textAlign:"center",textDecoration:"none",color:"grey"}}><h2>-- WOODEN COASTER --</h2></div>
+      <div className="cards">
+      
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={"/Productsphoto/Wooden Handicraft/WOODEN COASTER/Handmade Wooden Coaster.png"}
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={
+              "/Productsphoto/Wooden Handicraft/WOODEN COASTER/Nature Wood Coaster Set With Holder.png"
+            }
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={"/Productsphoto/Wooden Handicraft/WOODEN COASTER/Round Coaster With Coaster Holder.png"}
+            alt=""
+          />
+        </div>
+        
+        
+      </div>
+      {/* /////// 33333 */}
+      <div style={{textAlign:"center",textDecoration:"none",color:"grey"}}><h2>-- Toys --</h2></div>
+      <div className="cards">
+        
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={"/Productsphoto/Wooden Handicraft/TOYS/LUDO DICE.jpg"}
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={
+              "/Productsphoto/Wooden Handicraft/TOYS/PUZZLE.jpg"
+            }
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={"/Productsphoto/Wooden Handicraft/TOYS/TIC TAC TOE.jpg"}
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={
+              "/Productsphoto/Wooden Handicraft/TOYS/VEHICLES.jpg"
+            }
+            alt=""
+          />
+        </div>
+        
+      </div>
+      {/* //// 4444*/}
+      <div style={{textAlign:"center",textDecoration:"none",color:"grey"}}><h2>-- NAPKIN HOLDERS --</h2></div>
+      <div className="cards">
+      
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={"/Productsphoto/Wooden Handicraft/NAPKIN HOLDERS/Adjustable Wooden Napkin Holder.png"}
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={
+              "/Productsphoto/Wooden Handicraft/NAPKIN HOLDERS/Wooden Napkin Rings.png"
+            }
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={"/Productsphoto/Wooden Handicraft/NAPKIN HOLDERS/Wooden Oval Napkin Ring.png"}
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={
+              "/Productsphoto/Wooden Handicraft/NAPKIN HOLDERS/Wooden Square Napkin Ring.png"
+            }
+            alt=""
+          />
+        </div>
+        
+      </div>
+      {/* //////5555 */}
+      <div style={{textAlign:"center",textDecoration:"none",color:"grey"}}><h2>-- Kitchen Ware --</h2></div>
+      <div className="cards">
+       
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={"/Productsphoto/Wooden Handicraft/KITCHEN WARE/PRINTED SPATULAS.jpg"}
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={
+              "/Productsphoto/Wooden Handicraft/KITCHEN WARE/Serving Bowls.jpeg"
+            }
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={"/Productsphoto/Wooden Handicraft/KITCHEN WARE/Wooden Bowls.png"}
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={
+              "/Productsphoto/Wooden Handicraft/KITCHEN WARE/WOODEN ROLLING PIN.jpeg"
+            }
+            alt=""
+          />
+        </div>
+        
+      </div>
+      {/* ///////6666 */}
+      <div style={{textAlign:"center",textDecoration:"none",color:"grey"}}><h2>-- Flower Vase --</h2></div>
+      <div className="cards">
+        
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={"/Productsphoto/Wooden Handicraft/FLOWER VASE/CYLINDRICAL FLOWER VASE.jpg"}
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={
+              "/Productsphoto/Wooden Handicraft/FLOWER VASE/Decorative Wooden Flower Vase.png"
+            }
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={"/Productsphoto/Wooden Handicraft/FLOWER VASE/Square Wooden Planter.png"}
+            alt=""
+          />
+        </div>
+        
+        
+      </div>
+      {/* ////77777 */}
+      <div style={{textAlign:"center",textDecoration:"none",color:"grey"}}><h2>-- Candle Holder & Lamp --</h2></div>
+      <div className="cards">
+       
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={"/Productsphoto/Wooden Handicraft/CANDLE HOLDER & LAMP/CANDLE HOLDER.jpg"}
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={
+              "/Productsphoto/Wooden Handicraft/CANDLE HOLDER & LAMP/Crescent Wooden Table Lamp.jpg"
+            }
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={"/Productsphoto/Wooden Handicraft/CANDLE HOLDER & LAMP/LAMP.jpg"}
+            alt=""
+          />
+        </div>
+        <div className="card">
+          <img
+            className="card__image"
+            style={{
+              border: "2px solid #ebb4b4",
+              padding: "20px",
+              borderRadius: "4px",
+            }}
+            src={
+              "/Productsphoto/Wooden Handicraft/CANDLE HOLDER & LAMP/Wooden Conical Candle Holders.jpg"
+            }
+            alt=""
+          />
+        </div>
+        
+      </div>
 
-  <div className="card">
-    <img className="card__image" style={{border:"2px solid #ebb4b4",padding:"20px",borderRadius:"4px"}} src={"/Productsphoto/Handicrafts/WoodenCraft/277582808_5143174939059339_926423629905955675_n.jpg"} alt=""/>
-    
-    
-  </div><div className="card">
-    <img className="card__image" style={{border:"2px solid #ebb4b4",padding:"20px",borderRadius:"4px"}} src={"/Productsphoto/Handicrafts/WoodenCraft/277582808_5143174939059339_926423629905955675_n.jpg"} alt=""/>
-   
-    
-  </div>
-  <div className="card">
-    <img className="card__image" style={{border:"2px solid #ebb4b4",padding:"20px",borderRadius:"4px"}} src={"/Productsphoto/Handicrafts/WoodenCraft/279050284_5182392125137620_2150999950219210403_n.jpg"} alt=""/>
-    
-  </div>
-  <div className="card">
-    <img className="card__image" style={{border:"2px solid #ebb4b4",padding:"20px",borderRadius:"4px"}} src={"/Productsphoto/Handicrafts/WoodenCraft/bowls-s-trays4.jpg"} alt=""/>
-   
-    
-  </div>
-  <div className="card">
-    <img className="card__image" style={{border:"2px solid #ebb4b4",padding:"20px",borderRadius:"4px"}} src={"/Productsphoto/Temple/IMG-20220413-WA0004.jpg"} alt=""/>
-   
-    
-  </div>
-  <div className="card">
-    <img className="card__image" style={{border:"2px solid #ebb4b4",padding:"20px",borderRadius:"4px"}} src={"/Productsphoto/Handicrafts/WoodenCraft/Crescent Wooden Table Lamp.jpg"} alt=""/>
-    
-  </div><div className="card">
-    <img className="card__image" style={{border:"2px solid #ebb4b4",padding:"20px",borderRadius:"4px"}} src={"/Productsphoto/Handicrafts/WoodenCraft/Handmade Wooden Coaster.png"} alt=""/>
-    
-  </div>
   
-</div>
+  
+  
+  
+  
+ 
+  
+
     </div>
   )
 }

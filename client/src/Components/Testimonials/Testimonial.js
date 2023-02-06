@@ -1,46 +1,62 @@
-import React from "react";
+
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import React, { Component } from "react";
+import Slider from "react-slick";
 import "./Testimonial.css";
-import { useEffect, useState } from "react";
-import {
-  BsFillArrowLeftCircleFill,
-  BsFillArrowRightCircleFill,
-} from "react-icons/bs";
 import { RiStarSFill } from "react-icons/ri";
-const Testimonial = () => {
-  const [first, setfirst] = useState(0);
 
-  const next = function () {
-    if (first < 17) {
-      document.getElementsByClassName("testimonial-box")[first].style.width =
-        "0%";
-      setfirst(first + 1);
-      console.log(first);
-    }
-  };
-  const previous = function () {
-    if (first > 0) {
-      document.getElementsByClassName("testimonial-box")[first].style.width =
-        "0%";
-      setfirst(first - 1);
-      console.log(first);
-    }
-  };
 
-  useEffect(() => {
-    document.getElementsByClassName("testimonial-box")[first].style.width =
-      "100%";
-  }, [first]);
-  return (
-    <div id="review" style={{ backgroundColor: "white" }}>
-      <button className="testimonial-head">
-        <h2>Testimonials </h2>
-      </button>
-      <div className="testimonial-main">
-        <BsFillArrowLeftCircleFill
-          size={50}
-          onClick={previous}
-          style={{ marginTop: "75px" }}
-        />
+
+export default class Responsive extends Component {
+  render() {
+    var settings = {
+      dots: false,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 4,
+      slidesToScroll: 2,
+      initialSlide: 0,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 2,
+            infinite: true,
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 3000
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2,
+            autoplay: true,
+            autoplaySpeed: 3000
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 3000
+          }
+        }
+      ]
+    };
+    return (
+      <div style={{overflow:"hidden"}}>
+        <button class="member-head"><h2>Testimonials </h2></button>
+        <Slider {...settings}>
+          <div>
         <div className="testimonial-box">
           <img
             src="/testimonial/IMG_20221206_194337.jpg"
@@ -63,6 +79,8 @@ const Testimonial = () => {
             came as saviour.{" "}
           </p>
         </div>
+        </div>
+        <div>
         <div className="testimonial-box">
           <img
             src="/testimonial/IMG_20221206_194351.jpg"
@@ -84,6 +102,8 @@ const Testimonial = () => {
             import and export work can be filled so easily.
           </p>
         </div>
+        </div>
+        <div>
         <div className="testimonial-box">
           <img
             src="/testimonial/IMG_20221206_194407.jpg"
@@ -105,6 +125,8 @@ const Testimonial = () => {
             importer and exporter .
           </p>
         </div>
+        </div>
+        <div>
         <div className="testimonial-box">
           <img
             src="/testimonial/IMG_20221206_194420.jpg"
@@ -127,6 +149,8 @@ const Testimonial = () => {
             handle major export and imports for and from India .
           </p>
         </div>
+        </div>
+        <div>
         <div className="testimonial-box">
           <img
             src="/testimonial/IMG_20221206_194432.jpg"
@@ -148,6 +172,8 @@ const Testimonial = () => {
             care for all procedure and make things easy to understand for you .
           </p>
         </div>
+        </div>
+        <div>
         <div className="testimonial-box">
           <img
             src="/testimonial/IMG_20221206_194444.jpg"
@@ -169,6 +195,8 @@ const Testimonial = () => {
             The quality i get is the best in reasonable prices.
           </p>
         </div>
+        </div>
+        <div>
         <div className="testimonial-box">
           <img
             src="/testimonial/IMG_20221206_194457.jpg"
@@ -187,6 +215,8 @@ const Testimonial = () => {
 
           <p>Thank you Pk global Overseas for hassle free export procedure.</p>
         </div>
+        </div>
+        <div>
         <div className="testimonial-box">
           <img
             src="/testimonial/IMG_20221206_194510.jpg"
@@ -209,6 +239,8 @@ const Testimonial = () => {
             from vendor to settling down price and negotiation to supplier.
           </p>
         </div>
+        </div>
+        <div>
         <div className="testimonial-box">
           <img
             src="/testimonial/IMG_20221206_194521.jpg"
@@ -231,6 +263,8 @@ const Testimonial = () => {
             major CARVING india to Indonesia .
           </p>
         </div>
+        </div>
+        <div>
         <div className="testimonial-box">
           <img
             src="/testimonial/IMG_20221206_194533.jpg"
@@ -251,6 +285,8 @@ const Testimonial = () => {
           Importing good from India since years. Never face any complications while importing good from India to Turkey.
           </p>
         </div>
+        </div>
+        <div>
         <div className="testimonial-box">
           <img
             src="/testimonial/IMG_20221206_194543.jpg"
@@ -272,6 +308,8 @@ const Testimonial = () => {
 
           </p>
         </div>
+        </div>
+        <div>
         <div className="testimonial-box">
           <img
             src="/testimonial/IMG_20221206_194556.jpg"
@@ -292,6 +330,8 @@ const Testimonial = () => {
           hank you so much PK Global  for taking over my import and export procedure in your hand as it very hard job to follow the loop of duties.but all thanks to your team !  
           </p>
         </div>
+        </div>
+        <div>
         <div className="testimonial-box">
           <img
             src="/testimonial/IMG_20221206_194613.jpg"
@@ -313,6 +353,8 @@ const Testimonial = () => {
 
           </p>
         </div>
+        </div>
+        <div>
         <div className="testimonial-box">
           <img
             src="/testimonial/IMG_20221206_194624.jpg"
@@ -334,6 +376,8 @@ const Testimonial = () => {
 
           </p>
         </div>
+        </div>
+        <div>
         <div className="testimonial-box">
           <img
             src="/testimonial/IMG_20221206_194634.jpg"
@@ -354,6 +398,8 @@ const Testimonial = () => {
           When I visited there office , they consulted me with adequate import and export policy of India step by step and helped me to setup my work at global market ! 
           </p>
         </div>
+        </div>
+        <div>
         <div className="testimonial-box">
           <img
             src="/testimonial/IMG_20221206_194644.jpg"
@@ -374,6 +420,8 @@ const Testimonial = () => {
           Timely execution of delivery and very professional .
           </p>
         </div>
+        </div>
+        <div>
         <div className="testimonial-box">
           <img
             src="/testimonial/IMG_20221206_194733.jpg"
@@ -394,6 +442,8 @@ const Testimonial = () => {
           Fast and reliable service
           </p>
         </div>
+        </div>
+        <div>
         <div className="testimonial-box">
           <img
             src="/testimonial/IMG_20221206_194840.jpg"
@@ -414,15 +464,9 @@ const Testimonial = () => {
           My team would love to appreciate the efforts made by PK global overseas management . We certainly look forward to have more projects under your management. 
           </p>
         </div>
-        
-        <BsFillArrowRightCircleFill
-          size={50}
-          onClick={next}
-          style={{ marginTop: "75px" }}
-        />
+        </div>
+        </Slider>
       </div>
-    </div>
-  );
-};
-
-export default Testimonial;
+    );
+  }
+}
